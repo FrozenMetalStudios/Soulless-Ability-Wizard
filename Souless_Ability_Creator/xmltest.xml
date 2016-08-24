@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ability id =" A1-ML-DK-DM-005-001-0">
+  <data>
+    <name>Basic Weak Melee Attack</name>
+    <slot>AttackSlot1</slot>
+    <type>melee</type>
+    <cast>dark</cast>
+    <statistics>
+      <damage>5</damage>
+      <modifier>0</modifier>
+      <cooldown>1</cooldown>
+      <energy>10</energy>
+      <corruption>50</corruption>
+      <nextabilityID>null</nextabilityID>
+    </statistics>
+    <information>
+      <animationKey>BasicAttack1</animationKey>
+      <animationpath>Animations/BasicAttack1.anim</animationpath>
+      <description>You strike your enemy with a quick swing</description>
+      <spritepath>Sprites/Demon/Abilities/BasicAttacks/BasicAttack1</spritepath>
+      <hitbox>
+        <length>10</length>
+        <height>20</height>
+      </hitbox>
+    </information>
+    <effect>
+      <effectkey>Damage</effectkey>
+      <effectPath></effectPath>
+    </effect>
+  </data>
+</ability>
